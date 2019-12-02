@@ -113,9 +113,11 @@ img:hover {
   font-size: 140px;
 }
 
-.cons {}
+.cons {
+}
 
-.thinkerText {}
+.thinkerText {
+}
 
 .thinkerText path:nth-child(2) {
   stroke-dasharray: 326px;
@@ -329,7 +331,7 @@ img:hover {
 
 .face1 {
   position: relative;
-  background: #1A1A1A;
+  background: #1a1a1a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -389,7 +391,7 @@ img:hover {
 .project {
   width: 500px;
   height: 500px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   margin: 1%;
   transform: translate(28%, -17%);
 }
@@ -425,7 +427,7 @@ img:hover {
   position: relative;
   top: 32px;
   left: -40px;
-  background: -webkit-linear-gradient(#c31432, #240b36);
+  background: -webkit-linear-gradient(#000000, #921b1b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 1.5s ease;
@@ -442,7 +444,6 @@ img:hover {
   padding-top: 8%;
   text-transform: uppercase;
   font-size: 20px;
-  ;
 }
 
 .functionBox {
@@ -512,7 +513,7 @@ img:hover {
   text-decoration: none;
   list-style: unset;
   transition: all 1.5s ease;
-  background: -webkit-linear-gradient(#c31432, #240b36);
+  background: -webkit-linear-gradient(#1f0f4d, #921b1b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
