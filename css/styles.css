@@ -454,8 +454,18 @@ img:hover {
   padding-top: 5%;
 }
 
-.videoContainer {
+.EmailImage {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.EmailImage img {
+
   height: 800px;
+}
+
+.EmailImage img:hover {
+  none
 }
 
 .video {
@@ -469,14 +479,17 @@ img:hover {
 }
 
 /*footter---------------------------------------------*/
+#footer {}
+
 .footerDiv {
+  background-image: url("images/Email.svg");
   width: 100%;
-  background-color: black;
   height: 200px;
   color: white;
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
+  z-index: 10;
 }
 
 .getInTouch {
@@ -517,7 +530,7 @@ img:hover {
   text-decoration: none;
   list-style: unset;
   transition: all 1.5s ease;
-  background: -webkit-linear-gradient(#1f0f4d, #921b1b);
+  background: -webkit-linear-gradient(rgb(35, 35, 156), rgb(37, 197, 206));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
