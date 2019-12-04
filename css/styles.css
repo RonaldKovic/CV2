@@ -113,11 +113,9 @@ img:hover {
   font-size: 140px;
 }
 
-.cons {
-}
+.cons {}
 
-.thinkerText {
-}
+.thinkerText {}
 
 .thinkerText path:nth-child(2) {
   stroke-dasharray: 326px;
@@ -433,6 +431,12 @@ img:hover {
   transition: all 1.5s ease;
 }
 
+.content p {
+  padding-top: 40px;
+}
+
+
+
 /*video-----------------------------------------------*/
 .firstFunction {
   height: 250px;
@@ -440,7 +444,7 @@ img:hover {
 }
 
 .li2 p {
-  color: #fff;
+  color: #309BA0;
   padding-top: 8%;
   text-transform: uppercase;
   font-size: 20px;
