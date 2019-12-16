@@ -468,49 +468,16 @@ img:hover {
   none
 }
 
-.video {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  z-index: 4;
-  opacity: 0.4;
-  padding-bottom: 100px;
-}
+
 
 /*footter---------------------------------------------*/
 #footer {}
 
-.footerDiv {
-  background-image: url("images/Email.svg");
-  width: 100%;
-  height: 200px;
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 40px;
-  z-index: 10;
-}
 
-.getInTouch {
-  position: absolute;
-  text-transform: uppercase;
-  color: white;
-  left: 150px;
-  font-weight: lighter;
-  margin-top: -50px;
-}
 
-.IG {
-  position: absolute;
-  text-transform: uppercase;
-  color: white;
-  left: 150px;
-  font-weight: bold;
-  margin-top: -230px;
-  font-size: 60px;
-  letter-spacing: -5px;
-}
+
+
+
 
 .foward1 {
   position: absolute;

@@ -3,6 +3,7 @@
   font-weight: bold;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 body {
@@ -19,6 +20,22 @@ li {
 
 ul {
   text-align: center;
+}
+h1 {
+  color: #309ba0;
+  padding-left: 60px;
+  padding-top: 20px;
+}
+a {
+  color: #309ba0;
+  padding: 60px;
+  text-decoration-line: none;
+  font-size: 20px;
+}
+p {
+  padding: 60px;
+  color: white;
+  font-size: 20px;
 }
 
 #logoAnim {
@@ -70,11 +87,10 @@ ul {
 .firstFunction {
   height: 300px;
   margin-top: 300px;
-
 }
 
 .li2 p {
-  color: #309BA0;
+  color: #309ba0;
   padding-top: 8%;
   text-transform: uppercase;
   font-size: 40px;
@@ -84,7 +100,7 @@ ul {
   width: 90%;
   left: 5%;
   transform: translate(5%);
-  padding-top: 15%;
+  padding-top: 10%;
   animation: fadeIn 3s;
 }
 
@@ -98,7 +114,7 @@ ul {
 }
 
 .sectionTxt {
-  color: #309BA0;
+  color: #309ba0;
   padding-top: 8%;
   text-transform: uppercase;
   font-size: 40px;
@@ -113,22 +129,44 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translate(0%);
-  padding-bottom: 3%;
-  margin: 10%;
 
+  margin: 10%;
 }
 
 .svgInBox {
   height: 80px;
   justify-content: center;
   align-items: center;
-
 }
 
 .svgInBox1 {
   height: 50px;
   justify-content: center;
   align-items: center;
+}
 
+.pageBox {
+  background-color: #1a1a1a;
+  height: 1200px;
+  width: 50%;
+  transform: translate(50%);
+}
+.pageBoxImg {
+  height: 50px;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.liListed {
+  display: grid;
+  padding-left: 180px;
+  font-size: 20px;
+  text-align: left;
+  list-style-type: circle;
+  padding-top: 15px;
+  width: 800px;
+}
+.ulList {
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
 }
