@@ -158,15 +158,13 @@ p {
 }
 .liListed {
   display: grid;
-  padding-left: 180px;
+  transform: translate(30%);
   font-size: 20px;
   text-align: left;
   list-style-type: circle;
+  list-style: circle;
+  display: list-item;
   padding-top: 15px;
-  width: 800px;
 }
 .ulList {
-  list-style-type: square;
-  list-style-position: outside;
-  list-style-image: none;
 }
