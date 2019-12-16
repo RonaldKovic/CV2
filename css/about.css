@@ -7,7 +7,7 @@
 
 body {
   background-color: black;
-  height: 1500px;
+  height: 4500px;
 }
 
 li {
@@ -15,7 +15,10 @@ li {
   width: 500px;
   text-align: center;
   position: relative;
+}
 
+ul {
+  text-align: center;
 }
 
 #logoAnim {
@@ -51,22 +54,13 @@ li {
   animation: anima 3s ease forwards;
 }
 
-.meImage {
-  position: fixed;
-  overflow: visible;
-  margin-left: 78%;
-  margin-top: 2%;
-  animation: fadeIn 3s;
-  z-index: 0;
-
-}
-
 .name {
   position: fixed;
   overflow: visible;
   margin-left: 6%;
   margin-top: 3%;
   animation: fadeIn 3s;
+  z-index: 100;
 }
 
 .mainFunction {
@@ -84,4 +78,57 @@ li {
   padding-top: 8%;
   text-transform: uppercase;
   font-size: 40px;
+}
+
+.aboutMeImgDiv {
+  width: 90%;
+  left: 5%;
+  transform: translate(5%);
+  padding-top: 15%;
+  animation: fadeIn 3s;
+}
+
+.sectionImg {
+  width: 30%;
+  padding-top: 10%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  transform: translate(110%);
+}
+
+.sectionTxt {
+  color: #309BA0;
+  padding-top: 8%;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  transform: translate(-1%, -50%);
+}
+
+.skillBox {
+  background-color: #1a1a1a;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(0%);
+  padding-bottom: 3%;
+  margin: 10%;
+
+}
+
+.svgInBox {
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.svgInBox1 {
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+
 }
