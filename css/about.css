@@ -21,17 +21,20 @@ li {
 ul {
   text-align: center;
 }
+
 h1 {
   color: #309ba0;
   padding-left: 60px;
   padding-top: 20px;
 }
+
 a {
   color: #309ba0;
   padding: 60px;
   text-decoration-line: none;
   font-size: 20px;
 }
+
 p {
   padding: 60px;
   color: white;
@@ -150,21 +153,81 @@ p {
   height: 1200px;
   width: 50%;
   transform: translate(50%);
+  margin-top: 50px;
 }
+
+.pageBoxXpress {
+  background-color: #1a1a1a;
+  height: 2700px;
+  width: 50%;
+  transform: translate(50%);
+  margin-top: 50px;
+}
+
+.pageBoxTraluma {
+  background-color: #1a1a1a;
+  height: 3200px;
+  width: 50%;
+  transform: translate(50%);
+  margin-top: 50px;
+}
+
 .pageBoxImg {
   height: 50px;
   padding-left: 60px;
   padding-top: 60px;
 }
+
+.pageBoxImg2 {
+  height: 60px;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+
+.pageBoxImg3 {
+  height: 80px;
+  padding-left: 60px;
+  padding-top: 60px;
+}
+
 .liListed {
   display: grid;
   transform: translate(30%);
   font-size: 20px;
   text-align: left;
-  list-style-type: circle;
-  list-style: circle;
+  list-style: disc;
   display: list-item;
   padding-top: 15px;
 }
-.ulList {
+
+.liListed2 {
+  display: grid;
+  transform: translate(10%);
+  font-size: 20px;
+  text-align: left;
+  list-style: cross-fade();
+  display: list-item;
+}
+
+.liListed2:first-child {
+  padding-top: 10px;
+}
+
+.projectBox {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+
+
+}
+
+.li3 {
+  padding-top: 40px;
+  display: inline-block;
+  width: 200px;
+
+  text-align: center;
+  position: relative;
 }
