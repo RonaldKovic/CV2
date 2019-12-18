@@ -51,13 +51,33 @@ p {
 
 .portfolio {
   position: fixed;
+  display: inline-block;
   overflow: visible;
-  margin-left: 86.5%;
+  margin-left: 80%;
   margin-top: 3%;
   animation: fadeIn 3s;
   z-index: 1;
 }
-
+.portfolio a {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 30px;
+}
+.portfolio p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 30px;
+}
+.portfolio li {
+  text-align: right;
+  width: auto;
+}
+.portfolio img {
+  transform: translate(0, 25%);
+  padding-right: 20px;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -81,6 +101,9 @@ p {
   margin-top: 3%;
   animation: fadeIn 3s;
   z-index: 100;
+}
+.germanyIcon {
+  height: 40px;
 }
 
 .mainFunction {
@@ -220,8 +243,6 @@ p {
   justify-content: center;
   align-items: center;
   background-color: white;
-
-
 }
 
 .li3 {
