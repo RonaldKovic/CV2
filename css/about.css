@@ -58,26 +58,31 @@ p {
   animation: fadeIn 3s;
   z-index: 1;
 }
+
 .portfolio a {
   margin: 0;
   padding: 0;
   color: white;
   font-size: 30px;
 }
+
 .portfolio p {
   margin: 0;
   padding: 0;
   color: white;
   font-size: 30px;
 }
+
 .portfolio li {
   text-align: right;
   width: auto;
 }
+
 .portfolio img {
   transform: translate(0, 25%);
   padding-right: 20px;
 }
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -102,6 +107,7 @@ p {
   animation: fadeIn 3s;
   z-index: 100;
 }
+
 .germanyIcon {
   height: 40px;
 }
@@ -113,6 +119,10 @@ p {
 .firstFunction {
   height: 300px;
   margin-top: 300px;
+}
+
+.functionText {
+  padding: 0;
 }
 
 .li2 p {

@@ -43,10 +43,7 @@ img {
   height: 35px;
 }
 
-img:hover {
-  transition: all 1s ease;
-  transform: scale(1.25);
-}
+
 
 #welcomePage {
   height: 100vh;
@@ -417,9 +414,7 @@ img:hover {
   transition: all 1.5s ease;
 }
 
-.webLink:hover {
-  transform: scale(1.05);
-}
+
 
 .readMore {
   position: relative;
@@ -439,7 +434,7 @@ img:hover {
 
 /*video-----------------------------------------------*/
 .firstFunction {
-  height: 250px;
+  height: 280px;
   padding-top: 10%;
 }
 
@@ -452,64 +447,4 @@ img:hover {
 
 .functionBox {
   padding-top: 5%;
-}
-
-.EmailImage {
-  margin: 0px auto;
-  text-align: center;
-}
-
-.EmailImage img {
-
-  height: 800px;
-}
-
-.EmailImage img:hover {
-  none
-}
-
-
-
-/*footter---------------------------------------------*/
-#footer {}
-
-
-
-
-
-
-
-.foward1 {
-  position: absolute;
-  text-transform: uppercase;
-  color: white;
-  left: 150px;
-  font-weight: bold;
-  font-size: 60px;
-  left: 150px;
-  letter-spacing: -5px;
-}
-
-.line {
-  text-align: left;
-  padding-top: 43px;
-  letter-spacing: -5px;
-  text-decoration: none;
-  list-style: unset;
-  transition: all 1.5s ease;
-  background: -webkit-linear-gradient(rgb(35, 35, 156), rgb(37, 197, 206));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.line:hover {
-  text-decoration: underline;
-  transform: scale(1.05);
-  opacity: 0.5;
-}
-
-.email {
-  text-transform: lowercase;
-  margin-bottom: 18%;
-  font-weight: normal;
 }
