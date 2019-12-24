@@ -44,7 +44,6 @@ img {
 }
 
 
-
 #welcomePage {
   height: 100vh;
   width: 100%;
@@ -317,122 +316,86 @@ img {
   }
 }
 
-/*testProject-------------*/
-.face {
-  width: 500px;
-  height: 500px;
-  transition: 0.5s;
-}
-
-.face1 {
-  position: relative;
-  background: #1a1a1a;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  transform: translateY(200px);
-}
-
-.container .card:hover .face.face1 {
-  transform: translateY(50px);
-}
-
-.container .card .face.face2 {
-  height: 200px;
-  position: relative;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-}
-
-.container .card .face.face1 .content {
-  height: 200px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-/*projects --------------------------------------------*/
+/*Project-------------*/
 .projectsHead {
   position: absolute;
   left: 150px;
   bottom: -1px;
 }
 
-.procjectsContainer {
-  height: auto;
-  padding-bottom: 4%;
-  background-color: black;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  z-index: 4;
-  transition: 0.5s;
+.projectsContainer {
+  transform: translate(0, 200px);
 }
 
 .box {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.project {
+  position: relative;
   width: 500px;
   height: 500px;
   background-color: #1a1a1a;
-  margin: 1%;
-  transform: translate(28%, -17%);
+
 }
 
-.imageInBox {
+.box .imgBox {
   position: absolute;
-  height: 100%;
+  top: 0;
+  left: 0;
   width: 100%;
-  background-size: cover;
-  background-position: center;
-  transition: all 1.5s ease;
-  transition: all 1.5s ease-out;
+  height: 100%;
+}
+
+.box .imgBox img {
+  top: 0;
+  left: 0;
+  height: 60%;
+  width: 60%;
+
+  transition: 0.5s;
+}
+
+.box:hover .imgBox img {
   opacity: 0;
 }
 
-.imageInBox:hover {
-  transform: scale(1.05);
+.box .content {
+  position: absolute;
+  bottom: 20px;
+  left: 10%;
+  width: 80%;
+  height: 60px;
+  background-color: white;
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.box .content .tralumaIMG {
+  height: 50px;
+  transform: translate(0, -8px);
+}
+
+.box:hover .content {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.box .content p {
+  margin: 10px 0 0;
+  padding: 0;
+  opacity: 0;
+  line-height: 1.2em;
+  transition: 0.5s;
+  text-align: left;
+}
+
+.box .content p {
   opacity: 1;
+  transition-delay: 0.5s;
 }
 
-.webLink {
-  position: relative;
-  top: 45px;
-  left: 40px;
-  transition: all 1.5s ease;
-}
-
-
-
-.readMore {
-  position: relative;
-  top: 32px;
-  left: -40px;
-  background: -webkit-linear-gradient(#000000, #921b1b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 1.5s ease;
-}
-
-.content p {
-  padding-top: 40px;
-}
-
-
-
-/*video-----------------------------------------------*/
+/*footer-----------------------------------------------*/
 .firstFunction {
   height: 280px;
   padding-top: 10%;
@@ -446,5 +409,9 @@ img {
 }
 
 .functionBox {
+  padding-top: 15%;
+}
+
+.functionBox:last-child {
   padding-top: 5%;
 }
