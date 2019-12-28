@@ -150,6 +150,16 @@ p {
   transform: translate(110%);
 }
 
+.sectionImg1 {
+  width: 30%;
+  padding-top: 10%;
+  margin-bottom: 25px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  transform: translate(110%);
+}
+
 .sectionTxt {
   color: #309ba0;
   padding-top: 8%;
@@ -312,6 +322,11 @@ p {
     padding: 3%;
     transform: translate(-1%);
   }
+
+  .sectionImg1 {
+    width: 50%;
+    transform: translate(45%);
+  }
 }
 
 @media (max-width: 1100px) {
@@ -334,5 +349,10 @@ p {
     width: 35%;
     padding: 3%;
     transform: translate(-15%);
+  }
+
+  .sectionImg1 {
+    width: 80%;
+    transform: translate(13%);
   }
 }
