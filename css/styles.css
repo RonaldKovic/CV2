@@ -415,3 +415,52 @@ img {
 .functionBox:last-child {
   padding-top: 5%;
 }
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1000px) {
+  .iAM {
+    transform: translate(-10%);
+  }
+
+  .cons {
+    transform: translate(-9%);
+  }
+
+  .thinkerText {
+    transform: translate(-9%);
+  }
+
+  h1 {
+    transform: translate(-8%);
+  }
+
+  .foward {
+    transform: translate(-16%);
+  }
+
+  #welcomePage {
+    height: 90vh;
+  }
+
+  .projectsHead {
+    bottom: 0;
+    transform: translate(-16%, -110%);
+  }
+
+  .box {
+    height: 800px;
+    width: 800px;
+    transform: translate(-13%);
+  }
+
+  p {
+    font-size: 28px;
+  }
+
+  .firstFunction {
+    height: 350px;
+  }
+
+
+}
