@@ -210,7 +210,7 @@ p {
 
 .pageBoxTraluma {
   background-color: #1a1a1a;
-  height: 3200px;
+  height: 3300px;
   width: 50%;
   transform: translate(50%);
   margin-top: 50px;
@@ -236,7 +236,7 @@ p {
 
 .liListed {
   display: grid;
-  transform: translate(30%);
+  transform: translate(20%);
   font-size: 20px;
   text-align: left;
   list-style: disc;
