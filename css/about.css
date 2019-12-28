@@ -309,6 +309,7 @@ p {
   .pageBoxTraluma {
     width: 70%;
     transform: translate(20%);
+    height: 3300px;
   }
 
   .li1 {
