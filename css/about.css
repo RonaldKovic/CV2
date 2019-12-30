@@ -47,6 +47,7 @@ p {
   overflow: visible;
   animation: fadeIn 3s;
   z-index: 1;
+  height: 100px;
 }
 
 .portfolio {
