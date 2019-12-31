@@ -140,6 +140,9 @@ p {
   padding-top: 10%;
   animation: fadeIn 3s;
 }
+.aboutMeImg {
+  width: 100%;
+}
 
 .sectionImg {
   width: 30%;
