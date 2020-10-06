@@ -196,9 +196,16 @@ p {
   align-items: center;
 }
 
+.pageBoxCancom {
+  background-color: #1a1a1a;
+  height: 1500px;
+  width: 50%;
+  transform: translate(50%);
+  margin-top: 50px;
+}
 .pageBox {
   background-color: #1a1a1a;
-  height: 1200px;
+  height: 1100px;
   width: 50%;
   transform: translate(50%);
   margin-top: 50px;
@@ -283,7 +290,10 @@ p {
     width: 40%;
     transform: translate(75%);
   }
-
+  .pageBoxCancom {
+    width: 40%;
+    transform: translate(75%);
+  }
   .pageBoxXpress {
     width: 40%;
     transform: translate(75%);
@@ -301,6 +311,10 @@ p {
 
 @media (max-width: 1600px) {
   .pageBox {
+    width: 70%;
+    transform: translate(20%);
+  }
+  .pageBoxCancom {
     width: 70%;
     transform: translate(20%);
   }
@@ -338,6 +352,11 @@ p {
   .pageBox {
     width: 90%;
     transform: translate(6%);
+  }
+  .pageBoxCancom {
+    width: 90%;
+    transform: translate(6%);
+    height: 1900px;
   }
 
   .pageBoxXpress {
