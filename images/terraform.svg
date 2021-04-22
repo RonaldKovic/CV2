@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="378.354" viewBox="0 0 350 378.354">
+  <g id="Gruppe_1" data-name="Gruppe 1" transform="translate(-743.17 -1322.646)">
+    <g id="XMLID_8_" transform="translate(765.411 1322.646)">
+      <path id="XMLID_21_" d="M25.4,14.3,99.709,57.357v85.768L25.4,100.068Z" transform="translate(62.798 35.355)" fill="#fff"/>
+      <path id="XMLID_20_" d="M50.6,57.357,124.909,14.3v85.768L50.6,143.125Z" transform="translate(125.102 35.355)" fill="#fff"/>
+      <path id="XMLID_19_" d="M0,0,74.309,43.057v85.768L0,85.768Z" fill="#fff"/>
+      <path id="XMLID_18_" d="M25.4,43.7,99.709,86.41v86.115L25.4,129.468Z" transform="translate(62.798 108.043)" fill="#fff"/>
+    </g>
+    <text id="Terraform" transform="translate(743.17 1613)" fill="#fff" font-size="70" font-family="InaiMathi-Bold, InaiMathi" font-weight="700"><tspan x="0" y="60">Terraform</tspan></text>
+    <text id="HashiCorp" transform="translate(743.17 1605)" fill="#fff" font-size="18" font-family="InaiMathi-Bold, InaiMathi" font-weight="700"><tspan x="0" y="15">HashiCorp</tspan></text>
+  </g>
+</svg>
